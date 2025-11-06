@@ -1,4 +1,4 @@
-public class Quadrado {
+public class quadrado {
      
         /*
          Toda classe terá atributos e métodos
@@ -18,7 +18,7 @@ public class Quadrado {
 
         //métodos
         //métodos construtor:
-        public Quadrado(double lado){
+        public quadrado(double lado){
             this.lado = lado;
             calculararea();
         }
@@ -39,4 +39,5 @@ public class Quadrado {
             System.out.println("perimetro: " + this.perimetro);
        }
     }
+
 
